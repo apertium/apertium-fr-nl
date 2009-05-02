@@ -1,0 +1,19 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile -text
+/NEWS -text
+/README -text
+/TODO -text
+/apertium-fr-nl.fr-nl.dix.xml -text
+/apertium-fr-nl.fr.dix.xml -text
+/apertium-fr-nl.nl.dix.xml -text
+/apertium-fr-nl.post-fr.dix -text
+/apertium-fr-nl.symbols.xml -text
+/apertium-fr-nl.trules-fr-nl.xml -text
+/apertium-fr-nl.trules-nl-fr.xml -text
+/fr-nl.prob -text
+/modes.xml -text
+/nl-fr.prob -text
+/nl.top.20000.txt -text

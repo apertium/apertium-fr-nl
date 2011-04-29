@@ -25,7 +25,7 @@ all:
 
 
 clean:
-	rm -f *.bin apertium-fr-nl.fr.dix apertium-fr-nl.nl.dix apertium-fr-nl.fr-nl.dix trules-fr-nl.bin
+	rm -f *.bin 
 
 test:
 	echo "J'ai deux bières" | lt-proc fr-nl.automorf.bin | apertium-tagger -g fr-nl.prob | apertium-pretransfer | apertium-transfer apertium-fr-nl.fr-nl.t1x fr-nl.t1x.bin fr-nl.autobil.bin | lt-proc -g fr-nl.autogen.bin
